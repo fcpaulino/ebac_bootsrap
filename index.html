@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Ben Jor - Fan Page</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gupter:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="cabecalho" class="sticky-top">
+        <div class="navbar navbar-expand-lg navbar-fixed-top">
+            <div class="container">
+                <h1>Jorge Ben Jor</h1>
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills ">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#noticias"> Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#discografia"> Discografia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#biografia"> Biografia</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>  
+
+    <section id="banner">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-8">
+          <div id="carouselfade" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./imagens/jorge.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagens/capa-jorge-ben-copy.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagens/jorgeben.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagens/jorgeben_12.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>           
+  
+      </div>
+      
+  </section>
+
+<div>
+<section id="noticias">
+    <div class="container">
+        <h2>Notícias</h2>
+        <div class="row">
+            <div id="noticia-principal" class="col-8 justify-content-center">
+                <div class="card">
+                <img src="https://s2-g1.glbimg.com/CDu_pWrrQPlo8JT7K1nbi79RyV0=/0x0:724x488/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/4/Y/nkZJr6SwCZ8qN9l77cRQ/benjorvalentin.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Jorge Ben Jor chega aos 85 anos como artista fundamental da música brasileira, dono de obra matricial</h4>
+                    <p class="card-text">Cantor, compositor e músico carioca apresentou em 1963 um admirável mundo novo ao pacarís tropical com a ‘batida diferente’ de violão de toque miscigenado e suingue inigualável.</p>
+                    <p class="card-text"><a href="https://g1.globo.com/pop-arte/musica/blog/mauro-ferreira/post/2024/03/22/jorge-ben-jor-chega-aos-85-anos-como-artista-fundamental-da-musica-brasileira-dono-de-obra-matricial.ghtml" target="_blank">Leia a matéria completa</a></p>
+                </div>
+                </div>
+            </div>
+            <div id="noticias-antigas" class="col-4">
+                <div class="card">
+                    <div class="row no-gutters">
+                      <h3>Mais antigas</h3>
+                      <div class="col-md-4">
+                        <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="https://odia.ig.com.br/diversao/celebridades/2024/08/6893429-jorge-ben-jor-curte-show-de-samuel-rosa-em-sao-paulo.html" target="_blank">Jorge Ben Jor curte show de Samuel Rosa em São Paulo</a></h5>
+                          <p class="card-text"><small class="text-muted">3 Agosto 2024</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="https://alphafm.com.br/destaque/jorge-ben-jor-anuncia-show-em-sp-com-maiores-sucessos-da-carreira/" target="_blank">Jorge Ben Jor anuncia show em SP com maiores sucessos da carreira</a></h5>
+                          <p class="card-text"><small class="text-muted">27 julho 2024</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="https://www.bbc.com/portuguese/articles/c51nlj9nkwwo" target="_blank">Os códigos 'secretos' da alquimia escondidos em disco de Jorge Ben Jor</a></h5>
+                         <p class="card-text"><small class="text-muted">23 abril 2024</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="https://novabrasilfm.com.br/notas-musicais/8-curiosidades-sobre-jor-ben-jor-aniversariante-do-dia" target="_blank">8 Curiosidades sobre Jorge Ben Jor, aniversariante do dia</a></h5>
+                          <p class="card-text"><small class="text-muted">22 março 2022</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div> <!--fim row-->
+
+        <div class="row">
+            <div id="noticias-antigas2" class="col-8">
+                <div class="card">
+                    <div class="row no-gutters">
+                      <h3>Mais antigas</h3>
+                        <div class="col-3">
+                          <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                          </div>
+                          <div class="col-9">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="https://odia.ig.com.br/diversao/celebridades/2024/08/6893429-jorge-ben-jor-curte-show-de-samuel-rosa-em-sao-paulo.html" target="_blank">Jorge Ben Jor curte show de Samuel Rosa em São Paulo</a></h5>
+                              <p class="card-text"><small class="text-muted">3 Agosto 2024</small></p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="card">
+                  <div class="row no-gutters">
+                      <div class="col-3">
+                          <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                        </div>
+                        <div class="col-9">
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://alphafm.com.br/destaque/jorge-ben-jor-anuncia-show-em-sp-com-maiores-sucessos-da-carreira/" target="_blank">Jorge Ben Jor anuncia show em SP com maiores sucessos da carreira</a></h5>
+                            <p class="card-text"><small class="text-muted">27 julho 2024</small></p>  
+                          </div>
+                        </div>
+                  </div>
+              </div>
+              <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                      </div>
+                      <div class="col-9">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="https://www.bbc.com/portuguese/articles/c51nlj9nkwwo" target="_blank">Os códigos 'secretos' da alquimia escondidos em disco de Jorge Ben Jor</a></h5>
+                          <p class="card-text"><small class="text-muted">23 abril 2024</small></p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="card">
+              <div class="row no-gutters">
+                  <div class="col-3">
+                        <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                    </div>
+                    <div class="col-9">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://novabrasilfm.com.br/notas-musicais/8-curiosidades-sobre-jor-ben-jor-aniversariante-do-dia" target="_blank">8 Curiosidades sobre Jorge Ben Jor, aniversariante do dia</a></h5>
+                        <p class="card-text"><small class="text-muted">22 março 2022</small></p>
+                      </div>
+                    </div>
+              </div>
+          </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="discografia">
+<div class="container">
+    <h2>Discografia</h2>
+    <h3>Estúdio</h3>
+    
+    <div id="carousellarge" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://i.discogs.com/blUTbT6HWr5s87KRgQYc1ftDPhTQqFuIcYCwC437qTI/rs:fit/g:sm/q:90/h:280/w:276/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwOTI2/OTAtMTQxMjAxMTE0/Mi01NTE2LmpwZWc.jpeg" alt="Capa disco Samba Esquema Novo">
+                    <h4 class="card-title">Samba Esquema Novo</h4>
+                    <h5 class="subtitle">1963</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/3xWp6y0HGsHZlXljNs7VRy" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/a7f161_ddb02e9e76af4f61b8942548a3e2d5ed~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,enc_auto/a7f161_ddb02e9e76af4f61b8942548a3e2d5ed~mv2.jpg" alt="Capa Sacundin Ben Samba">
+                    <h4 class="card-title">Sacundin Ben Samba</h4>
+                    <h5 class="subtitle">1964</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/068f49Kj1Tbkoa4GvT7OJu" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://cdns-images.dzcdn.net/images/cover/c27cd8c25879267ff87b650adec4bf2a/500x500.jpg" alt="Capa Disco Ben é Samba bom">
+                    <h4 class="card-title">Ben é Samba Bom</h4>
+                    <h5 class="subtitle">1964</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/15eZbVWkK9PaortWGTOP5c" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273e6c4c96ef7accf4197064b59" alt="Capa Big Ben">
+                    <h4 class="card-title">Big Ben</h4>
+                    <h5 class="card-subtitle">1965</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/4CUfgmLSU6iEM64UIqlOof" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273a95e6b754a0afc50536f5d1b" alt="Capa O Bidú: Silêncio no Brooklin">
+                    <h4 class="card-title">O Bidú</h4>
+                    <h5 class="card-subtitle">1967</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/1jW304BKanLwArxGBt0t5t" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://oganpazan.com.br/wp-content/uploads/2019/01/Jorge-Ben-1969-3-1021x1024.jpg" alt="Capa Jorge Ben">
+                    <h4 class="card-title"> Jorge Ben</h4>
+                    <h5 class="card-subtitle">1969</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/3V3XJ3Sh62jPUYUMSQ1Tsf" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273cfacf4141520fdf2aefd8c1c" alt="Capa Força Bruta">
+                    <h4 class="card-title">Força Bruta</h4>
+                    <h5 class="card-subtitle">1970</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/12G0eYu3u8ZwdstT1flUXw" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://mundovinyl.com.br/wp-content/uploads/2022/01/capa-11.jpeg" alt="Capa Negro É Lindo">
+                    <h4 class="card-title">Negro É Lindo</h4>
+                    <h5 class="card-subtitle">1971</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/72gN1rKSLa00sDq8fmGQF4" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://i.discogs.com/xPwbzPn8ZA02FDNvcU3aDLXMZ_acO4SaNv24EGqcZm4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyMTg0/ODEtMTQ4NTk4MzE4/Mi03MzYwLnBuZw.jpeg" alt="Capa Ben">
+                    <h4 class="card-title">Ben</h4>
+                    <h5 class="card-subtitle">1972</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/0LOy0Q27F8JLmTHVb8b51g" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://cdn.awsli.com.br/600x450/2279/2279925/produto/179961508/8ff4409ff3.jpg" alt="Capa 10 Anos Depois">
+                    <h4 class="card-title">10 Anos Depois</h4>
+                    <h5 class="card-subtitle">1973</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/00mfmPa3ZUDSm9ma0ENp2z" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2733bce213e564b833e4e4be01f" alt="capa A Tábua de Esmeralda">
+                    <h4 class="card-title">A Tábua de Esmeralda</h4>
+                    <h5 class="card-subtitle">1974</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/5rcMJNWebtl2r2S18Je1A0" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://soulart.org/wp-content/uploads/2013/07/gil1.jpg" alt="Capa Gil & Jorge: Ogum, Xangô">
+                    <h4 class="card-title">Gil & Jorge</h4>
+                    <h5 class="card-subtitle">1975</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/7kblB1tNnJmTUkveankzxS" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2734092f84f742ba0e1eaa2f4e4" alt="Capa Solta o Pavão">
+                    <h4 class="card-title">Solta o Pavão</h4>
+                    <h5 class="card-subtitle">1975</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/26YyS4YkKRniunBIYTaNnp" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://conteudo.imguol.com.br/c/entretenimento/4f/2020/12/01/capa-do-disco-africa-brasil-1976-de-jorge-ben-1606862583627_v2_450x450.jpg" alt="Capa África Brasil">
+                    <h4 class="card-title">África Brasil</h4>
+                    <h5 class="card-subtitle">1976</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/0esHQqYklDPje00NUNq6py" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://akamai.sscdn.co/letras/360x360/albuns/1/1/9/e/768391689080370.jpg" alt="Capa Tropical">
+                    <h4 class="card-title">Tropical</h4>
+                    <h5 class="card-subtitle">1977</h5>
+                    <a href="https://www.youtube.com/watch?v=A3-S6ef8Mos" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273f670793d7129b4f65a84a889" alt="Capa A Banda do Zé Pretinho">
+                    <h4 class="card-title">A Banda do Zé Pretinho</h4>
+                    <h5 class="card-subtitle">1978</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/2C94EAIFBPnTcq7z8Xj7oe" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://i.discogs.com/-tR01X2J_MpO7qJ_P1_74qLPdyacRfzy4OAG7freSI4/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODU3/NjEtMTY3Mzk1MTQ3/Ni0xMjU3LmpwZWc.jpeg" alt="Capa Salve Simpatia">
+                    <h4 class="card-title">Salve Simpatia</h4>
+                    <h5 class="card-subtitle">1979</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/3BnyTufnkSjPhllw6xIw3U" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/812e5wzWMzL._UF1000,1000_QL80_.jpg" alt="Capa Alô Alô, Como Vai?">
+                    <h4 class="card-title">Alô Alô, Como Vai?</h4>
+                    <h5 class="card-subtitle">1980</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/0FUD8ug6knwMxpVzAQRmEi" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61wp8hCkcPL._UF1000,1000_QL80_.jpg" alt="Capa Bem-vinda Amizade">
+                    <h4 class="card-title">Bem-vinda Amizade</h4>
+                    <h5 class="card-subtitle">1981</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/1Dbn6bkxBBY8KsQYv85aRB" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://mundovinyl.com.br/wp-content/uploads/2024/05/capa-2.jpeg" alt="Capa Dádiva">
+                    <h4 class="card-title">Dádiva</h4>
+                    <h5 class="card-subtitle">1983</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/31key2nJ7sjZMiNTFLCiGX" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/estilhacosdiscos.com.br/wp-content/uploads/2024/03/img_5445.jpeg?fit=1000%2C997&ssl=1" alt="Capa Sonsual">
+                    <h4 class="card-title">Sonsual</h4>
+                    <h5 class="card-subtitle">1984</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/12jMSjsqRcJKQUdgzb8BVL" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/31QPx0obfvL._UF1000,1000_QL80_.jpg" alt="Capa Ben Brasil">
+                    <h4 class="card-title">Ben Brasil</h4>
+                    <h5 class="card-subtitle">1986</h5>
+                    <a href="https://www.youtube.com/watch?v=6v5AtrfCPtk&list=PLUHPt54xYw0tt0hhjpyKswEaUOOZdSOgq" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://i0.wp.com/estilhacosdiscos.com.br/wp-content/uploads/2024/06/img_8499.jpeg?fit=1000%2C994&ssl=1" alt="Capa Ben Jor">
+                    <h4 class="card-title">Ben Jor</h4>
+                    <h5 class="card-subtitle">1989</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/3spZ1bOe4KzFnDOHDIZieX" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/710RZbfQxUL._UF1000,1000_QL80_.jpg" alt="Capa 23">
+                    <h4 class="card-title">23</h4>
+                    <h5 class="card-subtitle">1993</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/1xdoXGyvNTyif1xsZo8Sjc" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="https://s3.amazonaws.com/vinils3/wp-content/uploads/2014/11/cd-jorge-ben-jor-homo-sapiens-otimo-estado-396111-MLB20476018579_112015-F.jpg" alt="Capa Homo Sapiens">
+                    <h4 class="card-title">Homo Sapiens</h4>
+                    <h5 class="card-subtitle">1995</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/2ptCHKBSX53lWcUbaaXxmS" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://discografia.discosdobrasil.com.br/storage/capas/DI04637.jpg" alt="Capa Reactivus Amor Est (Turba Philosophorum)">
+                    <h4 class="card-title">Reactivus Amor Est</h4>
+                    <h5 class="card-subtitle">2004</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/2to5DmMxBopiyhUi60vqxS" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273cd1efd50ffa7828b47f163b1" alt="Capa Recuerdos de Asunción 443">
+                    <h4 class="card-title">Recuerdos de Asunción</h4>
+                    <h5 class="card-subtitle">2007</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/3pqykAM7Div9jO4i5b473k" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousellarge" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousellarge" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="carouselsm" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card">
+                    <img src="https://i.discogs.com/blUTbT6HWr5s87KRgQYc1ftDPhTQqFuIcYCwC437qTI/rs:fit/g:sm/q:90/h:280/w:276/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwOTI2/OTAtMTQxMjAxMTE0/Mi01NTE2LmpwZWc.jpeg" alt="Capa disco Samba Esquema Novo">
+                    <h4 class="card-title">Samba Esquema Novo</h4>
+                    <h5 class="subtitle">1963</h5>
+                    <a href="https://open.spotify.com/intl-pt/album/3xWp6y0HGsHZlXljNs7VRy" class="btn btn-danger" target="_blank">Ouça agora</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://static.wixstatic.com/media/a7f161_ddb02e9e76af4f61b8942548a3e2d5ed~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,enc_auto/a7f161_ddb02e9e76af4f61b8942548a3e2d5ed~mv2.jpg" alt="Capa Sacundin Ben Samba">
+                <h4 class="card-title">Sacundin Ben Samba</h4>
+                <h5 class="subtitle">1964</h5>
+                <a href="https://open.spotify.com/intl-pt/album/068f49Kj1Tbkoa4GvT7OJu" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://cdns-images.dzcdn.net/images/cover/c27cd8c25879267ff87b650adec4bf2a/500x500.jpg" alt="Capa Disco Ben é Samba bom">
+                <h4 class="card-title">Ben é Samba Bom</h4>
+                <h5 class="subtitle">1964</h5>
+                <a href="https://open.spotify.com/intl-pt/album/15eZbVWkK9PaortWGTOP5c" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273e6c4c96ef7accf4197064b59" alt="Capa Big Ben">
+                <h4 class="card-title">Big Ben</h4>
+                <h5 class="card-subtitle">1965</h5>
+                <a href="https://open.spotify.com/intl-pt/album/4CUfgmLSU6iEM64UIqlOof" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273a95e6b754a0afc50536f5d1b" alt="Capa O Bidú: Silêncio no Brooklin">
+                <h4 class="card-title">O Bidú: Silêncio no Brooklin</h4>
+                <h5 class="card-subtitle">1967</h5>
+                <a href="https://open.spotify.com/intl-pt/album/1jW304BKanLwArxGBt0t5t" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://oganpazan.com.br/wp-content/uploads/2019/01/Jorge-Ben-1969-3-1021x1024.jpg" alt="Capa Jorge Ben">
+                <h4 class="card-title"> Jorge Ben</h4>
+                <h5 class="card-subtitle">1969</h5>
+                <a href="https://open.spotify.com/intl-pt/album/3V3XJ3Sh62jPUYUMSQ1Tsf" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273cfacf4141520fdf2aefd8c1c" alt="Capa Força Bruta">
+                <h4 class="card-title">Força Bruta</h4>
+                <h5 class="card-subtitle">1970</h5>
+                <a href="https://open.spotify.com/intl-pt/album/12G0eYu3u8ZwdstT1flUXw" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://mundovinyl.com.br/wp-content/uploads/2022/01/capa-11.jpeg" alt="Capa Negro É Lindo">
+                <h4 class="card-title">Negro É Lindo</h4>
+                <h5 class="card-subtitle">1971</h5>
+                <a href="https://open.spotify.com/intl-pt/album/72gN1rKSLa00sDq8fmGQF4" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.discogs.com/xPwbzPn8ZA02FDNvcU3aDLXMZ_acO4SaNv24EGqcZm4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyMTg0/ODEtMTQ4NTk4MzE4/Mi03MzYwLnBuZw.jpeg" alt="Capa Ben">
+                <h4 class="card-title">Ben</h4>
+                <h5 class="card-subtitle">1972</h5>
+                <a href="https://open.spotify.com/intl-pt/album/0LOy0Q27F8JLmTHVb8b51g" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://cdn.awsli.com.br/600x450/2279/2279925/produto/179961508/8ff4409ff3.jpg" alt="Capa 10 Anos Depois">
+                <h4 class="card-title">10 Anos Depois</h4>
+                <h5 class="card-subtitle">1973</h5>
+                <a href="https://open.spotify.com/intl-pt/album/00mfmPa3ZUDSm9ma0ENp2z" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b2733bce213e564b833e4e4be01f" alt="capa A Tábua de Esmeralda">
+                <h4 class="card-title">A Tábua de Esmeralda</h4>
+                <h5 class="card-subtitle">1974</h5>
+                <a href="https://open.spotify.com/intl-pt/album/5rcMJNWebtl2r2S18Je1A0" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+                <img src="https://soulart.org/wp-content/uploads/2013/07/gil1.jpg" alt="Capa Gil & Jorge: Ogum, Xangô">
+                <h4 class="card-title">Gil & Jorge: Ogum, Xangô</h4>
+                <h5 class="card-subtitle">1975</h5>
+                <a href="https://open.spotify.com/intl-pt/album/7kblB1tNnJmTUkveankzxS" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b2734092f84f742ba0e1eaa2f4e4" alt="Capa Solta o Pavão">
+                <h4 class="card-title">Solta o Pavão</h4>
+                <h5 class="card-subtitle">1975</h5>
+                <a href="https://open.spotify.com/intl-pt/album/26YyS4YkKRniunBIYTaNnp" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://conteudo.imguol.com.br/c/entretenimento/4f/2020/12/01/capa-do-disco-africa-brasil-1976-de-jorge-ben-1606862583627_v2_450x450.jpg" alt="Capa África Brasil">
+                <h4 class="card-title">África Brasil</h4>
+                <h5 class="card-subtitle">1976</h5>
+                <a href="https://open.spotify.com/intl-pt/album/0esHQqYklDPje00NUNq6py" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://akamai.sscdn.co/letras/360x360/albuns/1/1/9/e/768391689080370.jpg" alt="Capa Tropical">
+                <h4 class="card-title">Tropical</h4>
+                <h5 class="card-subtitle">1977</h5>
+                <a href="https://www.youtube.com/watch?v=A3-S6ef8Mos" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273f670793d7129b4f65a84a889" alt="Capa A Banda do Zé Pretinho">
+                <h4 class="card-title">A Banda do Zé Pretinho</h4>
+                <h5 class="card-subtitle">1978</h5>
+                <a href="https://open.spotify.com/intl-pt/album/2C94EAIFBPnTcq7z8Xj7oe" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.discogs.com/-tR01X2J_MpO7qJ_P1_74qLPdyacRfzy4OAG7freSI4/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODU3/NjEtMTY3Mzk1MTQ3/Ni0xMjU3LmpwZWc.jpeg" alt="Capa Salve Simpatia">
+                <h4 class="card-title">Salve Simpatia</h4>
+                <h5 class="card-subtitle">1979</h5>
+                <a href="https://open.spotify.com/intl-pt/album/3BnyTufnkSjPhllw6xIw3U" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/812e5wzWMzL._UF1000,1000_QL80_.jpg" alt="Capa Alô Alô, Como Vai?">
+                <h4 class="card-title">Alô Alô, Como Vai?</h4>
+                <h5 class="card-subtitle">1980</h5>
+                <a href="https://open.spotify.com/intl-pt/album/0FUD8ug6knwMxpVzAQRmEi" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61wp8hCkcPL._UF1000,1000_QL80_.jpg" alt="Capa Bem-vinda Amizade">
+                <h4 class="card-title">Bem-vinda Amizade</h4>
+                <h5 class="card-subtitle">1981</h5>
+                <a href="https://open.spotify.com/intl-pt/album/1Dbn6bkxBBY8KsQYv85aRB" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://mundovinyl.com.br/wp-content/uploads/2024/05/capa-2.jpeg" alt="Capa Dádiva">
+                <h4 class="card-title">Dádiva</h4>
+                <h5 class="card-subtitle">1983</h5>
+                <a href="https://open.spotify.com/intl-pt/album/31key2nJ7sjZMiNTFLCiGX" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://i0.wp.com/estilhacosdiscos.com.br/wp-content/uploads/2024/03/img_5445.jpeg?fit=1000%2C997&ssl=1" alt="Capa Sonsual">
+                <h4 class="card-title">Sonsual</h4>
+                <h5 class="card-subtitle">1984</h5>
+                <a href="https://open.spotify.com/intl-pt/album/12jMSjsqRcJKQUdgzb8BVL" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/31QPx0obfvL._UF1000,1000_QL80_.jpg" alt="Capa Ben Brasil">
+                <h4 class="card-title">Ben Brasil</h4>
+                <h5 class="card-subtitle">1986</h5>
+                <a href="https://www.youtube.com/watch?v=6v5AtrfCPtk&list=PLUHPt54xYw0tt0hhjpyKswEaUOOZdSOgq" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://i0.wp.com/estilhacosdiscos.com.br/wp-content/uploads/2024/06/img_8499.jpeg?fit=1000%2C994&ssl=1" alt="Capa Ben Jor">
+                <h4 class="card-title">Ben Jor</h4>
+                <h5 class="card-subtitle">1989</h5>
+                <a href="https://open.spotify.com/intl-pt/album/3spZ1bOe4KzFnDOHDIZieX" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/710RZbfQxUL._UF1000,1000_QL80_.jpg" alt="Capa 23">
+                <h4 class="card-title">23</h4>
+                <h5 class="card-subtitle">1993</h5>
+                <a href="https://open.spotify.com/intl-pt/album/1xdoXGyvNTyif1xsZo8Sjc" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://s3.amazonaws.com/vinils3/wp-content/uploads/2014/11/cd-jorge-ben-jor-homo-sapiens-otimo-estado-396111-MLB20476018579_112015-F.jpg" alt="Capa Homo Sapiens">
+                <h4 class="card-title">Homo Sapiens</h4>
+                <h5 class="card-subtitle">1995</h5>
+                <a href="https://open.spotify.com/intl-pt/album/2ptCHKBSX53lWcUbaaXxmS" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://discografia.discosdobrasil.com.br/storage/capas/DI04637.jpg" alt="Capa Reactivus Amor Est (Turba Philosophorum)">
+                <h4 class="card-title">Reactivus Amor Est</h4>
+                <h5 class="card-subtitle">2004</h5>
+                <a href="https://open.spotify.com/intl-pt/album/2to5DmMxBopiyhUi60vqxS" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273cd1efd50ffa7828b47f163b1" alt="Capa Recuerdos de Asunción 443">
+                <h4 class="card-title">Recuerdos de Asunción 443</h4>
+                <h5 class="card-subtitle">2007</h5>
+                <a href="https://open.spotify.com/intl-pt/album/3pqykAM7Div9jO4i5b473k" class="btn btn-danger" target="_blank">Ouça agora</a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselsm" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselsm" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+        </div>
+
+      </div>
+
+</div>
+
+</section>
+
+<section id="biografia">
+  <div class="container">
+      <h2>Biografia</h2>
+      <p>“O homem da gravata florida”, esse é Jorge. Também é o menino que voa, viaja entre alquimistas, filósofos, sambistas, inventa palavras, joga com a camisa 10 e canta sobre o Brasil, a vida e o amor por suas musas e sua ancestralidade.</p>
+      <p>Criado na Tijuca, Jorge Duílio Lima de Meneses, o Jorge Ben Jor, nasceu na década de 1940 (diferentes fontes citam diferentes datas, mas ele afirma que foi em 1945) e cresceu entre estivadores, poetas, músicos, religiosos e apaixonados por futebol.</p>
+      <p>Seu pai, estivador e compositor, era sua referência sobre poesias e o mundo do samba. A mãe, filha de etíopes que “por um descuido geográfico” nasceu no Brasil, foi o elo de Jorge com as culturas africanas, principalmente, a etíope.</p>
+      <p>Durante a infância, Jorge Ben Jor foi seminarista e chegou a cantar no coral gregoriano. Foi nessa época, que conheceu a vida de São Tomás de Aquino, aprendeu latim e começou a se interessar por alquimia, tema muito abordado em suas canções. Como muitos meninos do subúrbio, Jorge sonhava em ser jogador de futebol. Ele chegou a jogar na equipe infantojuvenil do Flamengo, mas a falta de remuneração impedia a dedicação exclusiva ao esporte. Nesse período, Jorge Ben Jor também trabalhou como despachante, mas nunca abandonou os estudos sobre alquimia. Seminarista, jogador de futebol, despachante e músico.</p>
+      <p>A música, sempre presente em sua vida, tornou-se profissão na juventude. Morando em Copacabana e frequentador assíduo do Beco das Garrafas desde os 16 anos, foi lá que Jorge Ben se tornou um grande fenômeno, ao lançar, em 1963, o álbum Samba Esquema Novo. O álbum apresentava uma de suas principais características: o som marcado do violão com influência de diversos ritmos, como o samba, o rock e o jazz, numa mistura totalmente original. Em 1976, em meio à ditadura civil militar, Jorge Ben Jor lançou o álbum África Brasil, ressaltando as contribuições africana e afrodescendente para a história do país, trabalho que o consolidaria como um dos maiores expoentes da cultura negra brasileira. Músicas como País Tropical, Taj Mahal e Umbabarauma são algumas entre os muitos sucessos que espalham a genialidade de Jorge Ben Jor pelo mundo.</p>
+      <p><small>Extraído de https://riomemorias.com.br/memoria/jorge-ben-jor/</small></p>
+
+  </div>
+</section>
+
+</div>
+
+<footer>
+    &copy; Desenvolvido por Fabiana Paulino
+</footer>
+
+<script src="./lib/bootstrap.bundle.min.js"></script>
+<script>
+  
+</script>
+
+
+</body>
+</html>

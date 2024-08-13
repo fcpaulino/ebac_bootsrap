@@ -1,0 +1,238 @@
+
+#cabecalho{
+    background-color: #fff;
+}
+
+
+#cabecalho h1,
+h2{
+    color: #D9042B;
+}
+
+.container h3{
+    color: #F29849;
+}
+
+#cabecalho h1,
+h2,
+h3{
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h5 a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+.nav-link{
+    color: #D9042B;
+}
+.nav-link .active {
+    background-color:#D9042B; /* Change this to your desired color */
+    color: white; /* Optional: change text color */
+  }
+
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='red' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar button{
+    display: none;
+}
+
+section{
+    margin-bottom: 20px;
+}
+section h3{
+    margin: 1em;
+}
+
+#discografia .cards-wrapper{
+    display: flex;
+}
+
+#discografia .card{
+    margin:0 3em;
+    width: calc(100%/3);
+}
+
+.card .btn{
+    margin-top: 2em;
+}
+.card-body img{
+    justify-content: center;
+    width: 280px;
+    height: 280px;
+}
+
+#discografia .card-body{
+    width: 320px;
+    height: 480px;
+}
+
+.card-title{
+    margin-top: 1em;
+}
+
+#carouselsm{
+    display: none;
+}
+
+#carouselmd{
+    display: none;
+}
+#banner .container{
+    background-image: url("./imagens/tabua16.jpg");
+}
+
+#noticias-antigas2{
+    display: none;
+}
+
+#noticias .card{
+    width: 80%;
+    border: none;
+}
+
+#noticias .col-4 .card{
+    width: 100%;
+    display: block;
+}
+
+#noticias .col-4 .card .card-title{
+ align-items: start;
+}
+
+
+footer{
+    background-color: #D9042B;
+    color: #fff;
+}
+
+@media screen and (max-width:640px) {
+    .card{
+        margin:0 3em;
+        width: 320px;
+    }
+#noticias .row{
+    display: block;
+}   
+
+#noticia-principal .card{
+    width: 100%;
+}
+
+#noticias-antigas{
+    display: none;
+}
+
+#noticias-antigas2{
+    display: block;
+}
+
+#noticias-antigas2 .col-3{
+    display: none;
+}
+
+#noticias-antigas2 .card{
+    width: 100%;
+}
+
+.navbar button{
+    display:flex;
+    border: none;
+}
+
+#carousellarge{
+    display: none;
+}
+
+#carouselsm{
+    display: block;
+}
+
+#carouselsm .card{
+    width: 280px;
+    height: 450px;
+    border: none;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+}
+
+#noticias-antigas2 h5{
+    font-size: 14px;
+}
+
+#noticias-antigas2 p{
+    font-size: 12px;
+}
+
+
+}
+
+
+
+@media screen and (min-width:641px) and (max-width:1023px){
+    #noticias-antigas{
+        display: none;
+    }
+
+    #noticias-antigas2{
+        display: block;
+    }
+
+    #noticias-antigas2 .card img{
+        margin:5% 0;
+    }
+
+    #noticias-antigas2 .card-body{
+        align-items: center;
+        justify-content: start;
+    }
+    
+
+    #discografia .card{
+        margin:0 1em;
+        width: calc(100%/3);
+        height: 360px;
+        border: none;
+    }
+    
+    #discografia .card h4{
+        font-size: 18px;
+    }
+
+    #discografia .card h5{
+        font-size: 16px;
+    }
+
+
+#carousellarge{
+    display: flex;
+}
+
+#noticias-antigas2 h5{
+    font-size: 14px;
+}
+
+
+
+
+}
